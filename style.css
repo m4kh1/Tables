@@ -1,0 +1,38 @@
+*{
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+table{
+    width: 70%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 8px solid grey;
+    }
+
+.on{
+    border: 1px solid grey;
+    width: 10%;
+}
+
+td{
+    border: 1px solid #99001f;
+    padding: 8px;
+}
+
+caption{
+    color: #99001f;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+th{
+    border: 3px solid grey;
+    border-bottom: 3px double grey;
+    background-color: #99001f;
+    color: white;
+}
+
+tr:nth-of-type(even){
+    background-color: #ddd;
+}
